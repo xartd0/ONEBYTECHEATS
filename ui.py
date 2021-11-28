@@ -172,8 +172,7 @@ class Ui_SplashScreen(object):
 
         pm.write_uchar(address, 0 if pm.read_uchar(address) != 0 else 2)
         pm.close_process()
-
-
+#test
 
 
 
